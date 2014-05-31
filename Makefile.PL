@@ -4,14 +4,15 @@ WriteMakefile
 (
   'INSTALLDIRS' => 'site',
   'VERSION_FROM' => 'lib/Roku/LCD.pm',
+  'EXE_FILES' => [],
+  'NAME' => 'Roku::LCD',
   'PL_FILES' => {},
   'PREREQ_PM' => {
-                   'Readonly' => 0,
                    'Time::HiRes' => 0,
-                   'Test::More' => 0,
-                   'Roku::RCP' => 0
-                 },
-  'NAME' => 'Roku::LCD',
-  'EXE_FILES' => []
+                   'Readonly' => 0,
+                   'Roku::RCP' => 0,
+                   'Carp' => 0,
+                   'Test::More' => 0
+                 }
 )
 ;

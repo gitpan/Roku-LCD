@@ -16,11 +16,12 @@ name: Roku-LCD
 provides:
   Roku::LCD:
     file: lib/Roku/LCD.pm
-    version: '0.04'
+    version: '0.05'
 requires:
+  Carp: '0'
   Readonly: '0'
   Roku::RCP: '0'
   Time::HiRes: '0'
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
-version: '0.04'
+version: '0.05'
